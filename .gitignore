@@ -1,0 +1,17 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+sign_language_env/
+
+# Large files
+data/asl_dataset/*.csv  # Exclude CSVs (they can be large)
+models/asl_model.pkl    # Exclude trained model (can be regenerated)
+
+# System files
+.DS_Store
+Thumbs.db
